@@ -1,39 +1,12 @@
-#SQL - Partie 6 : Suppression des données / tables / base
+# SQL - Partie 6 : Sélection de données - Élargir les possibilités de la clause WHERE
 
-##Exercice 1
+Avant de commencer, exécutez le fichier SQL.
 
-Supprimer Juliette Maçon de la liste des clients.
+## Exercice 1
+Dans la table *frameworks*, afficher toutes les données de la table ayant une version 2.x (x étant un numéro quelconque).
 
-##Exercice 2
+## Exercice 2
+Dans la table *frameworks*, afficher toutes les lignes ayant pour id 1 et 3.
 
-Supprimer les spectacles qui ont lieu entre 1er février et le 31 mai 2016.
-
-##Exercice 3
-
-Supprimer tous les clients dont le nom finit par "ski".
-
-##Exercice 4
-
-**Avant de commencer merci d'éxécuter le script paradisio.sql**
-
-Supprimer la table **clients** de la base **paradisio**.
-
-##Exercice 5
-
-Supprimer la table **soirees** de la base **paradisio**.
-
-##Exercice 6
-
-Supprimer la table **langages** de la base **competences**.
-
-##Exercice 7
-
-Supprimer la base **competences**.
-
-##Exercice 8
-
-Supprimer la base **paradisio**.
-
-##Exercice 9
-
-Supprimer la base **colysee**.
+## Exercice 3
+Dans la table *ide*, afficher toutes les lignes ayant une date comprise entre le premier janvier 2010 et le 31 decembre 2011.
